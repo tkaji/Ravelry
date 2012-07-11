@@ -1,0 +1,62 @@
+body
+{
+	font-family: verdana;
+}
+.slideshowcontainer
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 50px;
+	width: 270px;
+	z-index: 1px;
+}
+.slideshow
+{
+	float: left;
+}
+.imgThumbnail
+{
+	height: 50px;
+	width: 50px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	cursor: pointer;
+}
+.detailsDiv
+{
+	display: none;
+	border: solid 2px #D7D7D7;
+	width: 150px;
+	z-index: 999px;
+	padding: 2px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+.detailsDiv #title
+{
+	width: 200px;
+	font-weight: bold;
+	font-size: 10px;
+}
+.detailsDiv #notes
+{
+	width: 200px;	
+	font-size: 10px;
+}
+.arrow
+{
+	width:0px;
+	height:0px;
+	margin-top: 10px;
+	font-size:0px;
+	border-right: 10px solid #D7D7D7;
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	float: left;
+	display: none;
+}
